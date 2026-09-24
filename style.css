@@ -1,0 +1,393 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Common element styles */
+
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: 600;
+  text-transform: uppercase;
+    color: #F5EBDD;
+
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+   color: #F5EBDD;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+/* Common classes */
+.active-link {
+    color: #C58B5A;
+}
+
+.active-icon {
+  stroke: rgb(252, 196, 25);
+}
+
+.spacing-container {
+  padding: 200px 178px;
+}
+
+/* Header styles */
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #211814;
+  color: #F5EBDD;
+
+  font-weight: 500;
+  font-size: 21px;
+  padding: 21px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  list-style: none;
+}
+
+.icons {
+  stroke: #fff;
+  width: 24px;
+  height: 24px;
+}
+
+
+/* Hero Section Styles */
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 90vh;
+
+    background-image: linear-gradient(
+        rgba(33, 24, 20, 0.45),
+        rgba(33, 24, 20, 0.85)
+    ),
+    url("images/image.png");
+
+    background-size: cover;
+    background-position: center;
+}
+.main-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+  padding: 30px;
+}
+
+.main-description {
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.5;
+}
+
+/* btn style */
+.btn {
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px 48px;
+    border: #C58B5A solid 2px;
+    border-radius: 50px;
+    color: #C58B5A;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.btn-active {
+
+    color: #211814;
+    background-color: #C58B5A;
+}
+
+/* Our services section styles */
+
+.services-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 15px #C58B5A solid;
+}
+
+.services {
+    background-color: #E7D3BC;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 48px 72px 2fr 0.5fr 0.5fr;
+    row-gap: 30px;
+    column-gap: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.services-heading {
+    grid-column: 1 / -1;
+    align-self: center;
+}
+
+.services-description {
+  grid-column: 1/-1;
+  font-size: 24px;
+
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Menu section styles */
+.menu {
+    display: flex;
+    justify-content: center;
+    background-color: #E7D3BC;
+    padding: 50px 0;
+}
+
+.menu-contents {
+  width: 75%;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  align-items: center;
+  column-gap: 25px;
+  row-gap: 25px;
+}
+
+
+/* Price card styles */
+.price-card {
+  width: 100%;
+  min-height: 230px;
+  box-sizing: border-box;
+  background-color: #35251E;
+  color: #F5EBDD;
+  border: 2px solid #C58B5A;
+  border-radius: 16px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.card-description {
+    font-size: 15px;
+    font-weight: 400;
+    color: #B9A493;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.menu-name,
+.menu-btn {
+    grid-column: 1 / -1;
+    justify-self: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-name {
+    color: #211814;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.menu-btn {
+    background-color: #C58B5A;
+    color: #211814;
+
+    padding: 10px 24px;
+    border-radius: 25px;
+
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu-btn:hover {
+    background-color: #35251E;
+    color: #F5EBDD;
+}
+
+/* About us styles */
+
+.about-us {
+  min-height: 600px;
+  padding: 80px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background-image: linear-gradient(
+    rgba(33, 24, 20, 0.65),
+    rgba(33, 24, 20, 0.65)
+  ),
+  url("images/the-order.png");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.about-us-heading {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-us-description {
+  max-width: 900px;
+  color: #F5EBDD;
+  line-height: 1.5;
+}
+
+.about-us-description h3 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.about-us-description p {
+  font-size: 22px;
+}
+
+
+.filler {
+  padding: 48px;
+  background-color: #ffe8cc;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+/* History Of Coffee*/
+.coffee-video {
+  min-height: 700px;
+  padding: 80px 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  background-image: linear-gradient(
+    rgba(33, 24, 20, 0.65),
+    rgba(33, 24, 20, 0.65)
+  ),
+  url("images/history.png");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.coffee-video h2 {
+  margin-bottom: 20px;
+}
+
+.coffee-video p {
+  color: #F5EBDD;
+  font-size: 20px;
+  max-width: 800px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.coffee-video iframe {
+  width: 800px;
+  height: 450px;
+  border: none;
+}
+
+
+
+/* Footer styles */
+
+footer {
+  background-color: #211814;
+  color: #F5EBDD;
+  font-size: 16px;
+  padding: 50px 20px 25px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.footer-logo {
+  color: #C58B5A;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.footer-description {
+  color: #B9A493;
+  font-size: 16px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #F5EBDD;
+}
+
+.footer-links a:hover {
+  color: #C58B5A;
+}
+
+.footer-bottom {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid #35251E;
+  color: #B9A493;
+  font-size: 14px;
+}
+
+/* 
+linear-gradient(rgba(252, 196, 25, 0.4), rgba(0, 0, 0, 0.8)),
+rgb(252, 196, 25); */
