@@ -10,7 +10,11 @@
 
 ### 🎥 Proje Tanıtım Videosu
 
-<video src="https://github.com/miyavSevenRahip/The-Order-Coffee/raw/refs/heads/main/The-Order-Coffee.mp4" controls width="800"></video>
+
+
+https://github.com/user-attachments/assets/1debac38-a183-4997-b3de-8ca020b7e9f5
+
+
 
 ### 🖥️ Site Görselleri
 
