@@ -7,11 +7,8 @@
 
 ## 📸 Ön İzleme
 
-*(Projenizin ekran görüntülerini bu kısma ekleyebilirsiniz)*
-
 | Hero & Üst Menü | Hizmetlerimiz & Menü Kartları |
 |---|---|
-| ![Hero Banner](images/hero-preview.png) | ![Menu Grid](images/menu-preview.png) |
 
 ---
 
